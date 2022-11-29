@@ -18,3 +18,15 @@ body{
     grid-template-columns: repeat(7, 1fr);
     background-color: rgb(77, 138, 192);
 }
+
+.lado-izq{
+    height: 100%;
+    background-color: rgb(132, 174, 200);
+    grid-column: span 2;
+}
+
+.lado-der{
+    height: 100%;
+    background-color: rgb(14, 46, 66);
+    grid-column: span 5;
+}
