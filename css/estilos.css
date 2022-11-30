@@ -188,3 +188,43 @@ body{
     color: #a2b0c2;
 }
 
+.de{
+    padding-bottom: 2rem;
+}
+
+.linea-tiempo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.titulo-tl{
+    letter-spacing: 1px;
+    font-size: 1.0rem;
+    color: #182727;
+    text-transform: uppercase;
+}
+
+.titulo-tl2{
+    letter-spacing: 1px;
+    font-size: 1.0rem;
+    color: #182727;
+    text-transform: uppercase;
+    
+}
+
+.contenedor-tl{
+    border-left: 1px solid #7efbff;
+    padding-left: 2rem;
+    position: relative;
+}
+.titulo-tl2::before{
+    content: "";
+    position: absolute;
+    width: .7rem;
+    height: .7rem;
+    background-color: aqua;
+    border-radius: 50%;
+    transform: translate(-50%);
+    left: 0%;
+
+}
