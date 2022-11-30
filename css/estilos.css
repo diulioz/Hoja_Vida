@@ -163,4 +163,28 @@ body{
     padding: 2rem 3rem;
 }
 
+.titulo-der{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #99c3fa;
+    margin-bottom: 1.2rem;
+    position: relative;
+}
+
+.titulo-der::after{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: .2rem;
+    border-radius: 12px;
+    background-color: #7efbff;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.para{
+    line-height: 1.6rem;
+    color: #a2b0c2;
+}
 
