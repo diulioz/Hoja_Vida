@@ -64,20 +64,26 @@ body{
 }
 
 .titulo{
+    background-color: rgb(28, 58, 76);
     font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: white;
-    padding-top: 3rem;
+    /* padding-top: 1rem; */
+    padding: 1rem;
 
+}
+
+.separacion{
+    padding: 2rem;
 }
 
 .info-contacto{
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .info-contacto ul li{
-    padding: .4rem 0;
+    padding: .6rem 0;
     display: flex;
     align-items: center;
     color: gray;
@@ -89,9 +95,11 @@ body{
     color: rgb(81, 120, 81);
 }
 
-.habilidades ul li{
+.lenguajes ul li{
+    padding-top: 1.2rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    font-size: 1.2rem;
 }
 
 .barraprogreso{
@@ -125,11 +133,12 @@ body{
     width: 70%;
 }
 
-.javascrip{
+.javascript{
     width: 80%;
 }
 
 .programa-titulo{
+    padding-top: 0rem;
     text-transform: uppercase;
     color: white;
     font-size: 1rem;
