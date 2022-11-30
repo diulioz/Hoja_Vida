@@ -136,5 +136,31 @@ body{
     grid-column: span 5;
 }
 
+.subtitulo{
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #ccc;
+}
+
+.rol{
+    color: #ccc;
+    padding: .4rem 0;
+}
+
+.seccion-referencias li{
+    color: rgb(25, 63, 65);
+    padding: .2rem;
+}
+
+.seccion-referencias li i{
+    padding-right: .5rem;
+    font-size: 1.2rem;
+    color: #13425e;
+}
+
+.menu-der{
+    padding: 2rem 3rem;
+}
 
 
