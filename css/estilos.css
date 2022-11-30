@@ -1,5 +1,5 @@
 *{
-    padding: 0;
+    padding: 10;
     margin: 0;
     box-sizing: border-box;
     list-style: none;
@@ -22,11 +22,107 @@ body{
 .lado-izq{
     height: 100%;
     background-color: rgb(132, 174, 200);
-    grid-column: span 2;
+    grid-column: span 3;
+}
+
+.contenedor-izq{
+    padding: 1rem 3rem;
+}
+
+.Perfil{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.Perfil img{
+    width: 80%;
+    border-radius: 50%;
+    border: 8px;
+}
+
+.nombre{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.2rem 0;
+}
+
+.profesion{
+    color: black;
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+
+.titulo{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    padding-top: 3rem;
+
+}
+
+.Info-contacto{
+    padding: 2rem 0;
+}
+
+.Info-contacto ul li{
+    padding: .4rem 0;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.Info-contacto ul li i{
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    color: rgb(81, 120, 81);
+}
+
+.Hablidades ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barraprogreso{
+    width: 100%;
+    height:.4rem;
+    background-color: black;
+    position: relative;
+    border-radius: 12px;
+}
+
+.progreso{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: rgb(151, 129, 172);
+}
+
+.python{
+    width: 80%;
+}
+
+.java{
+    width: 60%;
+}
+
+.programa-titulo{
+    text-transform: uppercase;
+    color: white;
+    font-size: 1rem;
+    padding-right: 1rem;
+
 }
 
 .lado-der{
-    height: 100%;
-    background-color: rgb(14, 46, 66);
-    grid-column: span 5;
 }
+
+
+
