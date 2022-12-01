@@ -15,14 +15,14 @@ body{
     width: 80%;
     margin: 2rem auto;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     background-color: rgb(87,86,92,255);
 }
 
 .lado-izq{
     height: 100%;
     background-color: rgb(87,86,92,255);
-    grid-column: span 3;
+    grid-column: span 2;
 }
 
 .contenedor-izq{
@@ -68,17 +68,21 @@ body{
     font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: white;
+    color: whitesmoke;
     padding: 1rem;
 
 }
 
 .separacion{
-    padding: 2rem;
+    padding: 1.5rem;
+}
+
+.separacionaux{
+    padding: .3rem
 }
 
 .info-contacto{
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 
 }
 
@@ -90,7 +94,7 @@ body{
 }
 
 .info-contacto li i{
-    padding-right: 1rem;
+    padding-right: 2rem;
     font-size: 1.2rem;
     color: rgb(52, 50, 50)
 }
@@ -244,12 +248,19 @@ body{
 
 }
 
-.box-1{
+.seccion-iconos{
 	position: relative;
 }
 
 .icons2{
-	padding: 18px 10px;
+	padding: 18px 20px;
+    color: rgb(52, 50, 50)
+}
+
+.hobbie{
+    color: #949192;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width:823px){
