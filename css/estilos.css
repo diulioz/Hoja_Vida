@@ -243,6 +243,15 @@ body{
     left: 0%;
 
 }
+
+.box-1{
+	position: relative;
+}
+
+.icons2{
+	padding: 18px 10px;
+}
+
 @media screen and (max-width:823px){
     .titulo-der::after{
         width: 40%;
